@@ -27,7 +27,6 @@ Thumbs.db
 ehthumbs.db
 
 # Uploads / الملفات المؤقتة
-uploads/
 
 # TypeScript
 *.tsbuildinfo
