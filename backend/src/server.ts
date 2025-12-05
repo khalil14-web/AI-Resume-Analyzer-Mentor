@@ -4,6 +4,7 @@ import express from "express"
 import mongoose from "mongoose"
 import cors from "cors"
 import userRoute from "./routes/userRoute"
+import cvRoutes from "./routes/cvRoutes";
 
 
 const app = express()
@@ -21,6 +22,8 @@ mongoose
 
 // Routes
 app.use("/user", userRoute)
+
+app.use("/api/cv", cvRoutes);
 
 // Start server
 app.listen(port, () => {
